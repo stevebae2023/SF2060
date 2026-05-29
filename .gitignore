@@ -1,0 +1,28 @@
+# Editor / OS
+.DS_Store
+Thumbs.db
+*.swp
+*~
+.idea/
+.vscode/
+
+# Local Paperclip / Claude artifacts
+.claude/
+.paperclip/
+
+# Secrets — NEVER commit
+*.pat
+*.token
+.env
+.env.local
+secrets/
+**/credentials*
+
+# Build / drafts not meant for repo
+node_modules/
+__pycache__/
+*.pyc
+
+# Manuscript working scratch (use chXX.md for committed drafts)
+manuscript/scratch/
+manuscript/*.draft.md
