@@ -25,6 +25,7 @@
 
 ## 주요 문서
 
+- **[현재까지 정리 다이제스트 — 세계관·캐릭터·초반 스토리](docs/STORY_DIGEST.md)** (흩어진 캐논 요약 색인, 01 편집장 정리)
 - [회사 목표](docs/COMPANY_GOAL.md)
 - [에이전트 공통 지시](docs/AGENTS_COMMON.md)
 - [운영 가이드 (GitHub, PAT, 커밋)](docs/OPERATIONS.md)
