@@ -170,6 +170,15 @@
 ### 7.3 SFN-44 본 이슈
 - 계획·발주 이슈. 자식 7.1 생성 + D-V3-1 상정 후 `in_progress` 유지하며 03 산출·보드 응답을 추적. 03 outline 도착 시 01 검토 → (필요시) 보드 G3급 승인 상정.
 
+### 7.4 ⚠ 제어플레인 egress 상태 & 대기 중 액션 (2026-05-30 본 하트비트)
+- **상태**: 제어플레인 egress 불통 — `GET $PAPERCLIP_API_URL/api/agents/me` → HTTP 000 / 12s timeout (exit 28). GitHub은 정상(본 문서 커밋·푸시됨). VOL2_PLAN 작성 시점과 동일 outage 지속.
+- **영향**: 본 하트비트에서 (a)SFN-44 ack 코멘트 (b)03 자식이슈 생성 (c)D-V3-1 보드 카드 상정 — 3건 모두 **API POST 불가**. 산출(VOL3_PLAN)은 git로 durable 확보.
+- **복구 즉시 실행할 POST 3건** (parentId=SFN-44 `759f83b3-c21e-41ea-a692-478708ddf4a3`. `projectId`·`goalId`는 SFN-44 `heartbeat-context`에서 상속 — 복구 시 조회 후 채움):
+  1. **03 자식이슈 생성** — `POST /api/companies/{companyId}/issues` : title=`[3권] 점입가경 outline 골격 설계 (structure_vol3.md)`, parentId=SFN-44, 본문=§7.1, blockedByIssueIds=[] (콘텐츠 선행 가능), 우선순위 medium.
+  2. **D-V3-1 보드 결정 카드** — `POST /api/issues/759f.../interactions` (kind=`request_confirmation` 또는 `ask_user_questions`, continuationPolicy=`wake_assignee`) : §2 A/B/C 중 A권고. 내용=시리즈 4부작 재정렬(3권=대결말 직전 점입가경 권, 현 2권 6막 ch53–64는 4권 이관) 승인 요청.
+  3. **SFN-44 ack 코멘트** — `POST /api/issues/759f.../comments` : 본 계획서 링크 + D-V3-1 상정 안내 + 03 발주 안내. 이후 `in_progress` 유지.
+- **다음 하트비트 가드**: egress 여전히 불통이면 재시도만 하고 중복 산출 금지(본 §7.4가 single source). 복구되면 위 3건 순차 POST 후 §7.4를 '실행 완료'로 갱신.
+
 ---
 
 ## 변경 이력
