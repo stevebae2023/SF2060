@@ -177,6 +177,7 @@
 - *주의 2*: V4(B-스레드)가 ch5·6·12·16·17·25·28로 고르게 깔리나, 1막에서 seed가 ch5·6 연속 노출 → 비트화 때 한 박자 띄워 A플롯(V3) 추진력 우선.
 
 ## 변경 이력
+- (2026-05-30) v1.3 — 03 [SFN-45](/SFN/issues/SFN-45): **1막 ch02–08 연출 지시서형 비트 패킷 작성**([`chapters/ch02.md`](chapters/ch02.md)~[`ch08.md`](chapters/ch08.md)). README 표준 B + 모범 ch01·ch16 품질 기준 준수. F15(ch2·7)/F11·F21·F12(ch3)/F13·F26(ch4)/F22(ch5, pre-seed ch2·4·확산 ch6·8)/F23(ch6)/F25(ch7) plant·payoff 매핑, V3↔V4 결합 첫 신호(ch8), Act1 turn(ch9) 셋업. §11 주의2(ch5·6 V4 seed 한 박자 띄워 A플롯 우선) 반영. V4 비트는 02 [SFN-40](/SFN/issues/SFN-40) 확정 캐논(`bible/2권-신규-캐논.md` §3, D1 `잠정`) 인용·⚑가드레일 §3 엄수. D1·D2 불변.
 - (2026-05-30) v1 — 편집장이 보드 [SFN-38](/SFN/issues/SFN-38) 직접 지시로 2권 30화 전체 아웃라인 집필. V1–V4 통합(V3↔V4 결합 엔진), 1권 B안 계승, D1·D2·D3 반영, 하드룰 정합 점검. 03 [SFN-41](/SFN/issues/SFN-41) 정련 baseline.
 - (2026-05-30) v1.1 — 03 정련 1차(§11): POV per-chapter 확정(pov-map), 복선 F11–F15/F21–F26 정합(foreshadowing), 구 structure_vol2.md deprecate, F12 reconcile 플래그, 페이싱 점검. 캐논(D1·D2) 불변.
 - (2026-05-30) v1.2 — 편집장 회신 반영: F12 repurpose **채택**(임태오↔E5 소프트 단서, 기계적 열쇠 금지) → foreshadowing·1권 §4·ch03 적용 + 시계노인 명칭 강대식→임태오 캐논 정합(§3·ch06). §10 'D3=G6 이후' 게이트 **철회**(보드 지시) 동기화. D1·D2 불변.
