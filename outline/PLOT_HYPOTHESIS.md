@@ -1,6 +1,6 @@
 # 플롯 가설 outline — 《2060》 (가제) · 구조 v2 「추출된 마음 (진심의 가치)」
 
-> **상태**: 가설 outline v2 (2026-05-29). **보드 지시([SFN-12](/SFN/issues/SFN-12))에 따른 전면 재설계.**
+> **상태**: `확정` (2026-06-06) — 보드 지시([SFN-12](/SFN/issues/SFN-12))에 따른 16화 축약 및 인물 등장 조기화 반영 완료. **G3 보드 승인 완료.**
 > **작성**: 03 플롯 설계자 | **발주**: SFN-12 (v1 supersede)
 > **소유 폴더**: `outline/` — G3 승인 후 `structure.md` + `chapters/chXX.md` 비트 패킷으로 확정·분해된다.
 > **근거 캐논**: [`PREMISE.md`](../PREMISE.md) v2 §5 하드 룰 · [`bible/SEED_세계관-2060.md`](../bible/SEED_세계관-2060.md)
