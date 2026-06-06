@@ -1,5 +1,9 @@
-# 32개 에피소드 구조 (ch 1–32) — 《2060》
+# 32개 에피소드 구조 (ch 1–32) — 《2060》  ⚠ DEPRECATED (구 32화본)
 
+> **⚠ DEPRECATED (2026-06-06, [SFN-59](/SFN/issues/SFN-59))**: 1권은 보드 지시([SFN-57](/SFN/issues/SFN-57))로 **신 16화(R1–R16)** 로 축약·확정 재편되었다.
+> **현행 1권 구조 기준** = [`vol1/structure.md`](vol1/structure.md), **집필 패킷** = [`vol1/chapters/ch01–16`](vol1/chapters/), **구→신 매핑** = [`chapters/README.md`](chapters/README.md).
+> 본 문서는 *구 32화 비트 요약*의 **아카이브**로 보존한다(신 패킷이 자산 계승 시 참조). **신규 편집·집필 기준으로 사용하지 말 것.**
+>
 > **작성**: 03 플롯 설계자 | **날짜**: 2026-05-30
 > **기반**: [`outline/PLOT_HYPOTHESIS.md`](PLOT_HYPOTHESIS.md) v2, [`docs/EPISODE_INTEGRATION_PLAN.md`](../docs/EPISODE_INTEGRATION_PLAN.md)
 > **목표**: 7개 신규 에피소드 장치를 통합하고 전 챕터(32개)의 구조를 확정한다.
